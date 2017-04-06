@@ -12,3 +12,7 @@ git reset --hard <commit_id> 	//回溯到指定版本
 git reflog 			//查看命令历史，以便回到未来某个版本
 git diff HEAD -- <file name> 	//查看工作区和版本库里最新的版本的区别
 
+git remote add origin git@github.com:path/repo-name.git	//关联远程库
+git push -u origin master 				//第一次推从master分支上的所有内容
+git push origin master					//简化的推送操作
+
