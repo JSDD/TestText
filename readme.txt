@@ -19,3 +19,10 @@ git push origin master					//简化的推送操作
 
 git clone git@github.com:path/repo0name.git	//克隆远程库
 
+git branch	//查看所有分支
+git branch <branch name> //新建分支
+git checkout <branch name> // 切换到某个分支
+git checkout -b <branch name> //创建并切换到某分支
+git merge <branch name> //合并某分支到当前分支
+git branch -d <branch name> //删除某个分支
+
