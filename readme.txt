@@ -17,3 +17,5 @@ git remote remove origin				//删除与远程库的关联
 git push -u origin master 				//第一次推从master分支上的所有内容
 git push origin master					//简化的推送操作
 
+git clone git@github.com:path/repo0name.git	//克隆远程库
+
